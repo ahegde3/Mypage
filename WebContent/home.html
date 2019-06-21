@@ -1,0 +1,262 @@
+ <html>
+<head> <title>HomePage</title></head>
+<script>
+
+function goBack() {
+  window.history.back();
+}
+</script>
+ <style>
+ 	/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+ 	.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+
+<body >
+  
+
+<header>
+  <a href="home.html" style="color:white"><h2>MY PAGE</h2></a>
+</header>
+ <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#service">Our services</a>
+ <a href="about.html">About Us</a>
+  <a href="#contact">Contact</a>
+  <div style="float:right">
+  <a  href="" onClick="goBack()"> Back</a>
+  <form id="foo" method="post" action="./Logout">
+    <input type="hidden" name="yourParamName" value="yourParamValue" />
+</form>
+<a href="#" onclick="document.getElementById('foo').submit(); return false;">Logout</a>
+</div>
+</div>
+<div id="home">
+	<section>
+	<article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <p>"The quick brown fox jumps over the lazy dog" is an English-language pangram—a sentence that contains all of the letters of the alphabet. It is commonly used for touch-typing practice, testing typewriters and computer keyboards, displaying examples of fonts, and other applications involving text where the use of all letters in the alphabet is desired. Owing to its brevity and coherence, it has become widely known.
+</p>
+<p>
+	The earliest known appearance of the phrase is from The Boston Journal. In an article titled "Current Notes" in the February 10, 1885, morning edition, the phrase is mentioned as a good practice sentence for writing students: "A favorite copy set by writing teachers for their pupils is the following, because it contains every letter of the alphabet: 'A quick brown fox jumps over the lazy dog.'"[1] Dozens of other newspapers published the phrase over the next few months, all using the version of the sentence starting with "A" rather than "The".[2] The earliest known use of the phrase in its modern form (starting with "The") is from the 1888 book Illustrative Shorthand by Linda Bronson.[3] The modern form (starting with "The") became more common despite the fact that it is slightly longer than the original (starting with "A"). 
+</p>
+  </article>
+  </section>
+  <div id="service">
+  	<section><hr>
+  		<h4>Our services and product are</h4>
+  		<ul class="list">
+
+<li>Analyse business operations in real-time for clear, accurate business insight.</li>
+<li>Access data from multiple sources to give a true picture of your entire business.</li>
+<li>Analyse big data at the speed of thought and drive rapid innovation.</li>
+<li>Discover trends and patterns and improve planning and forecasting.</li>
+<li>Dramatically reduce hardware and maintenance costs.</li>
+</ul>
+<br>
+<br>
+<br>
+<ol >
+	  		
+<li>Analyse business operations in real-time for clear, accurate business insight.</li>
+<li>Access data from multiple sources to give a true picture of your entire business.</li>
+<li>Analyse big data at the speed of thought and drive rapid innovation.</li>
+<li>Discover trends and patterns and improve planning and forecasting.</li>
+<li>Dramatically reduce hardware and maintenance costs.</li>
+</ol>
+  	</section>
+	</div>
+<footer id="contact">
+        <div class="applyMask" data-mask="xlink-deep-curve-c-h110" data-themeclass="colorPalette_Gray"></div>
+		<div class="maskFiller">
+			<div class="footerWrapper">
+				<div class="row">
+                	<div class="col-md-3">
+	<section class="footer-info">
+		<p class="logo">
+         	<!-- AP3744 -->
+				<img data-secure="false" src="https://dam.abbott.com/global/logos/logo.png" alt="Abbott Logo" width="113" height="30"/>
+			</p>
+		<p class="logoText"> </p>
+	</section>				
+</div>
+<div class="col-md-9 col4 footer-links">
+
+<div class="footerColums">
+	<ul><li class="repeatedClass">
+                      <a href="http://www.abbott.com/consumer.html">
+                                    CONSUMERS</a>
+      						</li>
+				<li class="repeatedClass">
+                      <a href="http://www.abbott.com/for-healthcare-professionals.html">
+                                    HEALTHCARE PROFESSIONALS </a>
+      						</li>
+				<li class="repeatedClass">
+                      <a href="http://www.abbott.com/careers.html">
+                                     CAREERS</a>
+      						</li>
+				<li class="repeatedClass">
+                      <a href="http://www.abbott.com/about-abbott.html">
+                                    ABOUT ABBOTT</a>
+      						</li>
+				</ul>				
+	</div>	
+<div class="footerColums">
+	<ul><li>
+                      <a href="http://www.abbott.com/investors.html">
+                                    investors</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/corpnewsroom.html">
+                                    newsroom</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/responsibility.html">
+                                    Responsibility</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/lifetothefullest.html">
+                                    LIVE HEALTHY</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/partners.html">
+                                    partners</a>
+      						</li>
+				</ul>				
+	</div>	
+<div class="footerColums">
+	<ul><li>
+                      <a href="http://www.abbott.com/site-map.html">
+                                    site map</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/policies.html">
+                                    Policies</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/contact.html">
+                                    contact</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/global-sites.html">
+                                    global sites</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/privacy-policy.html">
+                                    privacy policy</a>
+      						</li>
+				<li>
+                      <a href="http://www.abbott.com/online-terms-and-conditions.html">
+                                    Terms & Conditions</a>
+      						</li>
+				</ul>				
+	</div>	
+<div class="footerColums">
+	<p class="share-title">FOLLOW ABBOTT</p>
+             <ul class="social-nolabel"><!-- AP3744 (to load assets with HTTPS if isSecure page property is enabled on current page) -->
+                        <li class="repeatedClass">
+                      <a href="https://www.facebook.com/Abbott" target="_blank">
+                                <img class="socialImage" alt="icon_Facebook" src="https://dam.abbott.com/global/icons/redesign/socialIcon1.png">
+                                </a>
+      						</li>
+				<!-- AP3744 (to load assets with HTTPS if isSecure page property is enabled on current page) -->
+                        <li class="repeatedClass">
+                      <a href="https://twitter.com/abbottglobal" target="_blank">
+                                <img class="socialImage" alt="icon_Twitter" src="https://dam.abbott.com/global/icons/redesign/socialIcon2.png">
+                                </a>
+      						</li>
+				<!-- AP3744 (to load assets with HTTPS if isSecure page property is enabled on current page) -->
+                        <li class="repeatedClass">
+                      <a href="http://instagram.com/abbottglobal" target="_blank">
+                                <img class="socialImage" alt="icon_Instagram" src="https://dam.abbott.com/global/icons/redesign/socialIcon3.png">
+                                </a>
+      						</li>
+				<!-- AP3744 (to load assets with HTTPS if isSecure page property is enabled on current page) -->
+                        <li class="repeatedClass">
+                      <a href="https://www.youtube.com/c/abbott" target="_blank">
+                                <img class="socialImage" alt=" icon_YouTube" src="https://dam.abbott.com/global/icons/redesign/socialIcon4.png">
+                                </a>
+      						</li>
+				<!-- AP3744 (to load assets with HTTPS if isSecure page property is enabled on current page) -->
+                        <li class="repeatedClass">
+                      <a href="http://www.linkedin.com/company/1612" target="_blank">
+                                <img class="socialImage" alt="LINKEDIN" src="https://dam.abbott.com/global/icons/redesign/socialIcon5.png">
+                                </a>
+      						</li>
+				</ul>				
+	</div>	
+</div>
+</div>
+            	<div class="clearfix footer-tnc">
+	<div class="clearfix copyRights">
+         <!--googleoff: all-->
+		<h5>© 2019 Abbott. All Rights Reserved. Please read the Legal Notice for further details.</h5>
+        <!--googleon: all-->
+	</div>
+	
+	<div class="clearfix disclaimers">
+		<p>  Unless otherwise specified, all product and service names appearing in this Internet site are trademarks owned by or licensed to Abbott, its subsidiaries or affiliates. No use of any Abbott trademark, trade name, or trade dress in this site may be made without the prior written authorization of Abbott, except to identify the product or services of the company.</p>
+	</div>	
+
+    <div class="clearfix reflink">
+        </div>
+
+</div>
+</div>
+	</footer>
+</body>
+</html> 

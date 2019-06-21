@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script>
+
+function goBack() {
+  window.history.back();
+}
+</script>	
+<style>
+ 	/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+ 	.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+<body>
+
+<header>
+  <a href="index.jsp" style="color:white"><h2>MY PAGE</h2></a>
+</header>
+<div class="topnav">
+  <a class="active" href="Home">Home</a>
+  <a href="Home">Our services</a>
+ <a href="about.html">About Us</a>
+  <a href="Home#contact">Contact</a>
+  <div style="float:right">
+  <a  href="" onClick="goBack()"> Back</a>
+ 
+  <form id="foo" method="post" action="./Logout">
+    <input type="hidden" name="yourParamName" value="yourParamValue" />
+</form>
+<a href="#" onclick="document.getElementById('foo').submit(); return false;">Logout</a>
+  </div></div>
+<div><h1>Our story</h1>
+
+<p>Website.com began in 2005. After years in the web hosting industry, we realized that it was near impossible for the average Jane or Joe to create their own website. Traditional web hosting services were simply too complicated, time consuming, and expensive to manage.</p>
+
+<p>We created the Website.com Site Builder with the user's perspective in mind. We wanted to offer a platform that would require no coding skills or design experience. We keep it simple, so users can focus on creating an amazing website that reflects their brand. Best of all - it's free. You can get online, showcase your brand, or start selling products right away.</p>
+
+<p>After seeing an increased need for ecommerce solutions, we developed one of the only fully-featured, free and commission-free online store builders, allowing business owners to launch their online business.</p>
+
+<p>Today, we're proud to empower individuals and small business owners around the world. Everyone deserves a website, and we're excited to see what you create.</p>
+
+</div>
+
+</body>
+</html>
