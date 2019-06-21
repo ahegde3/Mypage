@@ -77,7 +77,7 @@ function goBack() {
 <body>
 
 <header>
-  <a href="index.jsp" style="color:white"><h2>MY PAGE</h2></a>
+  <a href="Home" style="color:white"><h2>MY PAGE</h2></a>
 </header>
  <div class="topnav">
   <a class="active" href="Home">Home</a>

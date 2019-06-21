@@ -17,6 +17,8 @@ public class Home extends HttpServlet{
 	        if(session!=null){  
 	        String name=(String)session.getAttribute("name");  
 	        System.out.println(name);
+	        if(name==null ) res.sendRedirect("./index.jsp");  
+	        else
 	        //req.getRequestDispatcher("./home.html").forward(req,res);
 	        res.sendRedirect("./home.html");
 	        }  
